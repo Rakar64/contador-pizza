@@ -35,7 +35,6 @@
     border-radius: 8%;
     background-color: var(--div-bg);
     width:80%;
-    margin-top: 10%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-size: 6vw;
 }
@@ -78,8 +77,7 @@
 }
 
 #switch{
-    transform: scale(3);
-    margin-top: 7%;
+    transform: scale(3) translateY(60%);
 }
 
 button{
@@ -103,7 +101,17 @@ img{
 
 body{
     display: flex; 
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
+}
+
+footer{
+    border: 2px red solid;
+}
+
+a{
+    color: darkblue;
+
 }
