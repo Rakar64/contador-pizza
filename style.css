@@ -7,6 +7,7 @@
     --button-color: #217379;
     --button-border-color: #1a1a40;
     --panel-color-border: var(--button-border-color);
+    --link-color: darkblue;
 }
 
 .dark-mode:root {
@@ -17,6 +18,7 @@
     --amount-bg-color: #19191a;
     --button-color: #4c0027;
     --button-border-color: #ecdda2;
+    --link-color: beige;
 }
 
 *{
@@ -77,7 +79,9 @@
 }
 
 #switch{
-    transform: scale(3) translateY(60%);
+    transform: scale(3);
+    margin-top: 6%;
+    margin-bottom: 2%;
 }
 
 button{
@@ -107,11 +111,11 @@ body{
     height: 100vh;
 }
 
-footer{
-    border: 2px red solid;
+a{
+    color: var(--link-color);
 }
 
-a{
-    color: darkblue;
-
+textarea{
+    background-color: var(--amount-bg-color);
+    color: var(--body-color);
 }
