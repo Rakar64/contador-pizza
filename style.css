@@ -78,8 +78,8 @@
 }
 
 #switch{
-    transform: scale(3)
-    translateY(+50%)
+    transform: scale(3);
+    margin-top: 7%;
 }
 
 button{
