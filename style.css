@@ -1,0 +1,109 @@
+:root {
+    --body-bg: #e6a15c;
+    --div-bg: #ff5f7c;
+    --body-color: #0c181c;
+    --amount-color: #0c181c;
+    --amount-bg-color: #ecdda2;
+    --button-color: #217379;
+    --button-border-color: #1a1a40;
+    --panel-color-border: var(--button-border-color);
+}
+
+.dark-mode:root {
+    --body-bg: #000000;
+    --div-bg: #1a1a40;
+    --body-color: beige;
+    --amount-color: beige;
+    --amount-bg-color: #19191a;
+    --button-color: #4c0027;
+    --button-border-color: #ecdda2;
+}
+
+*{
+    margin: 0;
+    background-color: var(--body-bg);
+    font-family: "Lemon", serf;
+    padding: 0;
+    color: var(--body-color);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8%;
+    background-color: var(--div-bg);
+    width:80%;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 6vw;
+}
+
+.counter{
+    margin: 10%;
+    background-color: var(--div-bg);
+}
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7%;
+    margin: 5%;
+    background-color: var(--div-bg);
+}
+
+#amount{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: var(--amount-color);
+    background-color: var(--amount-bg-color);
+    width: 97.4%;
+    height:50%;
+    font-size: 10vw;
+    border-left: solid 3px var(--panel-color-border);
+    border-right: solid 3px var(--panel-color-border);
+}
+
+#up{
+    border-radius: 15% 15% 0% 0%;
+}
+
+#down{
+    border-radius: 0% 0% 15% 15%;
+}
+
+#switch{
+    transform: scale(3)
+    translateY(+50%)
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items:center;   
+    background-color: var(--button-color);
+    width: 100%;
+    height: 25%;
+    font-size: 10vw;
+    border:none;
+    border: var(--button-border-color) solid 3px;
+}
+
+
+img{
+    width:40%;
+    background-color:var(--div-bg);
+    margin: 10%;
+}
+
+body{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
