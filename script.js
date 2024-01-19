@@ -2,7 +2,9 @@ const up = document.getElementById("up");
 const down = document.getElementById("down");
 const amount = document.getElementById("amount");
 const change = document.getElementById("switch");
-const $html = document.querySelector('html')
+const $html = document.querySelector('html');
+const easter = document.getElementById('foto');
+let counter = 0;
 
 function pressUp(){  
     let el = parseInt(amount.innerText)
@@ -23,4 +25,10 @@ up.addEventListener("click", pressUp);
 down.addEventListener("click", pressDown);
 change.addEventListener('change', function(){
     $html.classList.toggle('dark-mode')
+})
+easter.addEventListener('click', function(){
+    counter += 1
+    if(counter >= 10){
+        window.alert("Feliz Aniversário Leonardo")
+    }
 })

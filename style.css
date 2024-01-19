@@ -118,4 +118,10 @@ a{
 textarea{
     background-color: var(--amount-bg-color);
     color: var(--body-color);
+    border-radius: 5%;
+    border: 3px var(--button-color) solid
+}
+
+p{
+    margin: 3%;
 }
