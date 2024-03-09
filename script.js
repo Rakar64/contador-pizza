@@ -29,6 +29,6 @@ change.addEventListener('change', function(){
 easter.addEventListener('click', function(){
     counter += 1
     if(counter >= 10){
-        window.alert("Feliz Aniversário Leonardo")
+        window.alert("Feliz Aniversário Andy")
     }
 })
