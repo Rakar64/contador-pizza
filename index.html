@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/pizza.png" type="image/x-icon">
     <title>Contador de Pizza</title>
 </head>
+
 <body>
     <input id="switch" type="checkbox">
     <div class="content">
         <h1 class="counter">Contador de Pizza</h1>
         <img src="/assets/pizza.png" alt="" id="foto">
-        <div class ="panel">
+        <div class="panel">
             <button id="up" class="botao">+</button>
             <h1 id="amount">0</h1>
             <button id="down" class="botao">-</button>
         </div>
     </div>
     <p>Espaço para anotações</p>
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-    <footer><a href="https://www.flaticon.com/br/icones-gratis/pizza" title="pizza ícones">ícone feito por BZZRINCANTATION</a></footer>   
+    <textarea name="" id="note" cols="30" rows="10"></textarea>
+    <footer>
+        <button id="saveBtn" class="saveBtn"> SALVAR </button>
+
+        <a href="https://www.flaticon.com/br/icones-gratis/pizza" title="pizza ícones" style="font-size: 8px;">ícone
+            feito por
+            BZZRINCANTATION</a>
+    </footer>
     <script src="/script.js"></script>
 </body>
+
 </html>

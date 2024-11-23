@@ -120,9 +120,22 @@ textarea{
     background-color: var(--amount-bg-color);
     color: var(--body-color);
     border-radius: 5%;
-    border: 3px var(--button-color) solid
+    border: 3px var(--button-color) solid;
+    margin-bottom: 50px;
+    padding-bottom: 200px;
 }
 
 p{
     margin: 3%;
+}
+
+#saveBtn {
+    padding: 25%;
+    border-radius: 5%;
+    
+}
+#saveBtn:active{
+    background-color:#ff5f7c;
+    color: white;
+
 }
