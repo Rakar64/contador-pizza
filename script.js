@@ -9,7 +9,8 @@ const saveBtn = document.getElementById('saveBtn');
 let counter = 0;
 
 window.onload = function(){
-    amount.innerText = localStorage.getItem('amountPizza')
+
+    amount.innerText = localStorage.getItem('amountPizza') ?? 0
     note.innerText = localStorage.getItem('userNote')
 }
 
